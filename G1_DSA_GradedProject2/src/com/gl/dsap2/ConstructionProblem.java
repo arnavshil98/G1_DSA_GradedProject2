@@ -65,12 +65,12 @@ public class ConstructionProblem {
 	}
 
 	public static void main(String[] args) {
-		System.out.println("-----------no of days----------");
+		System.out.println("enter the total number of floors in buildings");
 		Scanner sc = new Scanner(System.in);
 		int noOfDays = sc.nextInt();
 		for (int i = 0; i < noOfDays; i++) {
 			int day = i + 1;
-			System.out.println("day: " + day);
+			System.out.println("enter the floor size given on day : " + day);
 			int floorSize = sc.nextInt();
 			arr.add(floorSize);
 			sort(arr, i);
